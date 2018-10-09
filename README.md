@@ -11,9 +11,9 @@ Usage:
 No application.py:
 
 ```python
-import path_formatter
+import eve_path_formatter
 
-path_formatter.install() # before Eve instantiate
+eve_path_formatter.install() # before Eve instantiate
 ```
 
 How it works

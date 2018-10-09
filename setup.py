@@ -19,6 +19,7 @@ setup(
     version=__version__,
     install_requires=install_requires,
     packages=find_packages(exclude=["tests", "tests.*"]),
+    py_modules=["eve_path_formatter"],
     url=__repo__,
     download_url="{}/tarball/{}".format(__repo__, __version__),
     include_package_data=True,
